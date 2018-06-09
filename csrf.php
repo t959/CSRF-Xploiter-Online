@@ -101,7 +101,7 @@ $url = $_POST['url'];
 $pf = $_POST['pf'];
 $d = $_POST['d'];
 if($d) {
-    echo "<form method='post' target='_blank' action='$url' enctype='multipart/form-data'><input type='file' name='$pf'><input type='submit' name='g' value='Genjot cuks!'></form";
+    echo "<form method='post' target='_blank' action='$url' enctype='multipart/form-data'><input type='file' name='$pf'><input type='submit' name='g' value='Upload!'></form";
 }
 ?>
 </form>
